@@ -1,0 +1,103 @@
+Id,Name,Position,Team,ProjPts,ProjOwn
+36825775|CPT,Denver Broncos,DST,Broncos,18.88,1.66
+36825724|FLEX,Denver Broncos,DST,Broncos,12.59,19.89
+36825781|CPT,Cleveland Browns,DST,Browns,6.33,0.46
+36825730|FLEX,Cleveland Browns,DST,Browns,4.22,11.77
+36825768|CPT,Javonte Williams,RB,Broncos,16.35,13.21
+36825717|FLEX,Javonte Williams,RB,Broncos,10.9,48.15
+36825760|CPT,Courtland Sutton,WR,Broncos,22.25,22.73
+36825709|FLEX,Courtland Sutton,WR,Broncos,14.83,49.4
+36825764|CPT,Jerry Jeudy,WR,Browns,19.14,14.5
+36825713|FLEX,Jerry Jeudy,WR,Browns,12.76,42.24
+36825799|CPT,Donald Parham,TE,Broncos,0,0
+36825748|FLEX,Donald Parham,TE,Broncos,0,0
+36825770|CPT,Jarrett Stidham,QB,Broncos,0,0
+36825719|FLEX,Jarrett Stidham,QB,Broncos,0,0
+36825771|CPT,Zach Wilson,QB,Broncos,0,0
+36825720|FLEX,Zach Wilson,QB,Broncos,0,0
+36825767|CPT,Elijah Moore,WR,Browns,12.4,5.04
+36825716|FLEX,Elijah Moore,WR,Browns,8.27,32.53
+36825774|CPT,Bailey Zappe,QB,Browns,0,0
+36825723|FLEX,Bailey Zappe,QB,Browns,0,0
+36825788|CPT,Pierre Strong Jr.,RB,Browns,1.16,0
+36825737|FLEX,Pierre Strong Jr.,RB,Browns,0.77,0.18
+36825783|CPT,Lil'Jordan Humphrey,WR,Broncos,7.61,0.43
+36825732|FLEX,Lil'Jordan Humphrey,WR,Broncos,5.07,14.06
+36825810|CPT,Nyheim Hines,RB,Browns,0,0
+36825759|FLEX,Nyheim Hines,RB,Browns,0,0
+36825807|CPT,Geoff Swaim,TE,Browns,0,0
+36825756|FLEX,Geoff Swaim,TE,Browns,0,0
+36825802|CPT,David Bell,WR,Browns,0,0
+36825751|FLEX,David Bell,WR,Browns,0,0
+36825763|CPT,Nick Chubb,RB,Browns,14.45,2.81
+36825712|FLEX,Nick Chubb,RB,Browns,9.63,26.19
+36825805|CPT,Michael Woods II,WR,Browns,0,0
+36825754|FLEX,Michael Woods II,WR,Browns,0,0
+36825765|CPT,David Njoku,TE,Browns,16.34,10.24
+36825714|FLEX,David Njoku,TE,Browns,10.89,41.63
+36825780|CPT,Jerome Ford,RB,Browns,8.36,1.19
+36825729|FLEX,Jerome Ford,RB,Browns,5.57,24.08
+36825803|CPT,James Proche II,WR,Browns,0,0
+36825752|FLEX,James Proche II,WR,Browns,0,0
+36825804|CPT,Jaelon Darden,WR,Browns,5.79,0
+36825753|FLEX,Jaelon Darden,WR,Browns,3.86,0.12
+36825794|CPT,D'Onta Foreman,RB,Browns,0,0
+36825743|FLEX,D'Onta Foreman,RB,Browns,0,0
+36825787|CPT,Adam Trautman,TE,Broncos,5.79,0
+36825736|FLEX,Adam Trautman,TE,Broncos,3.86,0.99
+36825762|CPT,Jameis Winston,QB,Browns,17.79,5.15
+36825711|FLEX,Jameis Winston,QB,Browns,11.86,33.61
+36825797|CPT,David Sills V,WR,Broncos,0,0
+36825746|FLEX,David Sills V,WR,Broncos,0,0
+36825806|CPT,Kadarius Toney,WR,Browns,0,0
+36825755|FLEX,Kadarius Toney,WR,Browns,0,0.17
+36825786|CPT,Josh Reynolds,WR,Broncos,0,0
+36825735|FLEX,Josh Reynolds,WR,Broncos,0,0
+36825777|CPT,Dustin Hopkins,K,Browns,7.89,0.12
+36825726|FLEX,Dustin Hopkins,K,Browns,5.26,8.33
+36825776|CPT,Wil Lutz,K,Broncos,13.88,1.17
+36825725|FLEX,Wil Lutz,K,Broncos,9.25,12.57
+36825796|CPT,Michael Bandy,WR,Broncos,0,0
+36825745|FLEX,Michael Bandy,WR,Broncos,0,0
+36825785|CPT,Jordan Akins,TE,Browns,6.25,0.59
+36825734|FLEX,Jordan Akins,TE,Browns,4.17,8.31
+36825772|CPT,Deshaun Watson,QB,Browns,0,0
+36825721|FLEX,Deshaun Watson,QB,Browns,0,0
+36825801|CPT,Tyler Badie,RB,Broncos,0,0
+36825750|FLEX,Tyler Badie,RB,Broncos,0,0
+36825789|CPT,Lucas Krull,TE,Broncos,3.33,0
+36825738|FLEX,Lucas Krull,TE,Broncos,2.22,1.82
+36825793|CPT,Michael Burton,RB,Broncos,1.35,0
+36825742|FLEX,Michael Burton,RB,Broncos,0.9,0.95
+36825809|CPT,Mitchell Fraboni,TE,Broncos,0,0
+36825758|FLEX,Mitchell Fraboni,TE,Broncos,0,0
+36825773|CPT,Dorian Thompson-Robinson,QB,Browns,0,0
+36825722|FLEX,Dorian Thompson-Robinson,QB,Browns,0,0
+36825766|CPT,Cedric Tillman,WR,Browns,0,0
+36825715|FLEX,Cedric Tillman,WR,Browns,0,0
+36825778|CPT,Jaleel McLaughlin,RB,Broncos,6.58,0.1
+36825727|FLEX,Jaleel McLaughlin,RB,Broncos,4.39,6.36
+36825792|CPT,Nate Adkins,TE,Broncos,0,0
+36825741|FLEX,Nate Adkins,TE,Broncos,0,0.38
+36825782|CPT,Marvin Mims Jr.,WR,Broncos,6.58,0.58
+36825731|FLEX,Marvin Mims Jr.,WR,Broncos,4.39,10.1
+36825798|CPT,A.T. Perry,WR,Broncos,0,0
+36825747|FLEX,A.T. Perry,WR,Broncos,0,0
+36825800|CPT,Cameron Latu,TE,Browns,0,0
+36825749|FLEX,Cameron Latu,TE,Browns,0,0
+36825791|CPT,Blake Whiteheart,TE,Browns,0,0
+36825740|FLEX,Blake Whiteheart,TE,Browns,0,0
+36825795|CPT,Blake Watson,RB,Broncos,0,0
+36825744|FLEX,Blake Watson,RB,Broncos,0,0
+36825808|CPT,Thomas Yassmin,TE,Broncos,0,0
+36825757|FLEX,Thomas Yassmin,TE,Broncos,0,0
+36825779|CPT,Audric Estime,RB,Broncos,7.71,0.11
+36825728|FLEX,Audric Estime,RB,Broncos,5.14,7.58
+36825769|CPT,Devaughn Vele,WR,Broncos,12.29,2.75
+36825718|FLEX,Devaughn Vele,WR,Broncos,8.19,22.46
+36825790|CPT,Jamari Thrash,WR,Browns,4.59,0.43
+36825739|FLEX,Jamari Thrash,WR,Browns,3.06,20.8
+36825761|CPT,Bo Nix,QB,Broncos,27.84,16.66
+36825710|FLEX,Bo Nix,QB,Broncos,18.56,49.67
+36825784|CPT,Troy Franklin,WR,Broncos,7.68,0.06
+36825733|FLEX,Troy Franklin,WR,Broncos,5.12,5.66
