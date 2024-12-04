@@ -58,23 +58,17 @@ def main():
             logger.error(f"Failed to upload projection file: {e}")
 
     # Sidebar selection for projection source
-    st.sidebar.header("📁 Projection Source")
     projection_choice = st.sidebar.selectbox(
         "Select Projection Source",
         options=["Default Projections", "User Uploaded Projections"]
     )
     if projection_choice == "Default Projections":
-        projection_path = 'data/projections/default/'
-        if not os.path.exists(projection_path):
-            st.sidebar.error("❌ Default projections directory does not exist.")
-            projection_path = 'data/raw/'  # Fallback to raw data
-            logger.warning(f"Default projections directory missing. Falling back to {projection_path}")
+        projection_path = 'data/raw/'  # Changed from 'data/projections/default/'
     else:
         projection_path = 'data/projections/user_uploads/'
         if not os.listdir(projection_path):
             st.sidebar.error("❌ No user-uploaded projection files found.")
-            projection_path = 'data/projections/default/'  # Fallback to default
-            logger.warning(f"No user-uploaded projections found. Falling back to {projection_path}")
+            projection_path = 'data/raw/'  # Fallback to raw data if user uploads are missing
 
     # Button to run simulation
     if st.sidebar.button("🚀 Run Simulation"):
@@ -145,7 +139,7 @@ def main():
                 except Exception as e:
                     col.error(f"❌ Failed to load {file_type.replace('_', ' ').title()}: {e}")
                     logger.error(f"Failed to load {filepath}: {e}")
-
+    
             # Load and display visualizations for the selected simulation
             st.markdown("### 📈 Visualizations for Selected Simulation")
             try:

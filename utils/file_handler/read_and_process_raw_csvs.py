@@ -8,20 +8,20 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-def read_and_process_raw_csvs(raw_data_dir: str = 'data/raw/') -> tuple:
+def read_and_process_raw_csvs(projection_path: str = 'data/raw/') -> tuple:
     """
-    Reads raw CSV files from the specified directory, processes them,
+    Reads raw CSV files from the specified projection path, processes them,
     and returns the processed DataFrame and game metadata.
 
     Args:
-        raw_data_dir (str): Directory path where raw CSV files are stored.
+        projection_path (str): Directory path where projection CSV files are stored.
 
     Returns:
         tuple: (processed_df, game_metadata)
     """
     try:
         logger.info("[Step 1] Fetching CSV files...")
-        csv_files = get_csv_files(raw_data_dir)
+        csv_files = get_csv_files(projection_path)
         logger.info(f"CSV files found: {csv_files}")
         
         logger.info("[Step 2] Identifying CSV files...")

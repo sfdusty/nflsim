@@ -10,17 +10,13 @@ from sim.simulator import run_simulation_slate
 
 logger = logging.getLogger(__name__)
 
-def orchestrate_simulation_workflow(num_simulations: int = 100, 
-                                    raw_data_dir: str = 'data/raw/', 
-                                    projection_path: str = 'data/projections/default/') -> dict:
+def orchestrate_simulation_workflow(num_simulations: int = 100, projection_path: str = 'data/raw/') -> dict:
     """
-    Orchestrates the simulation workflow: loading raw data, running simulations with projections,
-    summarizing results, and saving to CSV.
+    Orchestrates the simulation workflow: loading data, running simulations, summarizing results, and saving to CSV.
 
     Args:
         num_simulations (int): The number of simulations to run.
-        raw_data_dir (str): Path to the raw data CSV files.
-        projection_path (str): Path to the projection CSV files.
+        projection_path (str): Path to the projection files.
 
     Returns:
         dict: Summary of simulation results.
@@ -30,7 +26,7 @@ def orchestrate_simulation_workflow(num_simulations: int = 100,
     """
     logger.info("[Step 1] Loading and processing raw data...")
     try:
-        processed_data, game_metadata = read_and_process_raw_csvs(raw_data_dir=raw_data_dir)
+        processed_data, game_metadata = read_and_process_raw_csvs(projection_path=projection_path)
     except Exception as e:
         logger.error(f"Error loading and processing raw data: {e}")
         raise
@@ -47,7 +43,7 @@ def orchestrate_simulation_workflow(num_simulations: int = 100,
 
     logger.info("[Step 2] Running simulations...")
     try:
-        slate = run_simulation_slate(processed_data, game_metadata, num_simulations, projection_path=projection_path)
+        slate = run_simulation_slate(processed_data, game_metadata, num_simulations)  # Removed projection_path
     except Exception as e:
         logger.error(f"Error during simulation: {e}")
         raise
@@ -68,6 +64,8 @@ def orchestrate_simulation_workflow(num_simulations: int = 100,
 
     logger.info("[Workflow Complete] Simulation, summarization, and saving completed successfully.")
     return summary
+
+# ... (rest of simulation_handler.py remains unchanged)
 
 def get_available_simulations(output_dir: str = 'data/simulations/') -> list:
     """
