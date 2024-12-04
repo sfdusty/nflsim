@@ -1,8 +1,14 @@
+# utils/config.py
+
 import os
 
-# Configuration for data directories and file paths
+# Define directories
+RAW_DATA_DIR = os.path.join('data', 'raw')
+PROCESSED_DATA_DIR = os.path.join('data', 'processed')
+SIMULATIONS_DIR = os.path.join('data', 'simulations')
+USER_UPLOADS_DIR = os.path.join('data', 'projections', 'user_uploads')
 
-RAW_DATA_DIR = os.getenv('RAW_DATA_DIR', 'data/raw/')
-PROCESSED_DATA_DIR = os.getenv('PROCESSED_DATA_DIR', 'data/processed/')
+# Define output file paths
 FULL_MERGED_FILE = os.path.join(PROCESSED_DATA_DIR, 'merged_data.csv')
 SLIMMED_PROJECTIONS_FILE = os.path.join(PROCESSED_DATA_DIR, 'slimmed_projections.csv')
+
